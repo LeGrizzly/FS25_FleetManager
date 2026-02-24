@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="105">
+  <author>LeGrizzly</author>
+  <version>0.0.1.0-build-11</version>
+  <title>
+    <en>Fleet Manager</en>
+    <fr>Gestionnaire de Flotte</fr>
+  </title>
+  <description>
+    <en>Replaces TAB vehicle switching with a GUI list and map.</en>
+    <fr>Remplace le changement de véhicule TAB par une liste GUI et une carte.</fr>
+  </description>
+  <iconFilename>images/MenuIcon.dds</iconFilename>
+
+  <multiplayer supported="false" />
+
+  <extraSourceFiles>
+    <sourceFile filename="scripts/main.lua" />
+  </extraSourceFiles>
+
+  <l10n filenamePrefix="l10n/l10n" />
+
+</modDesc>
