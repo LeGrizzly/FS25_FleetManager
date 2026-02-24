@@ -5,10 +5,12 @@
   <title>
     <en>Fleet Manager</en>
     <fr>Gestionnaire de Flotte</fr>
+    <de>Flottenmanager</de>
   </title>
   <description>
     <en>Replaces TAB vehicle switching with a GUI list and map.</en>
     <fr>Remplace le changement de véhicule TAB par une liste GUI et une carte.</fr>
+    <de>Ersetzt die Fahrzeugumschaltung über die Tabulatortaste durch eine grafische Benutzeroberfläche mit Liste und Karte.</de>
   </description>
   <iconFilename>images/MenuIcon.dds</iconFilename>
 
