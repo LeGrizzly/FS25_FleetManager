@@ -59,5 +59,5 @@ This project is licensed under the [MIT License](LICENSE) - see the LICENSE file
 ## ☕ Support
 
 If you enjoy this mod and want to support my work, consider buying me a coffee!
-
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/legrizzly)
+<br><br>
+<a href="https://buymeacoffee.com/legrizzly"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="150" alt="Buy Me A Coffee" /></a>
