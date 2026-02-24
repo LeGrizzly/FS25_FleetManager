@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <!-- Vehicle List -->
+    <Profile name="fleetVehicleList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="780px 700px" />
+        <Value name="isHorizontalList" value="false" />
+        <Value name="selectedWithoutFocus" value="false" />
+        <Value name="selectOnScroll" value="true" />
+    </Profile>
+
+    <Profile name="fleetVehicleListItem" extends="listItem">
+        <Value name="size" value="780px 120px" />
+    </Profile>
+
+    <Profile name="fleetVehicleItemIcon" extends="image">
+        <Value name="size" value="100px 100px" />
+        <Value name="position" value="20px 10px" />
+        <Value name="verticalAlignment" value="middle" />
+    </Profile>
+
+    <Profile name="fleetVehicleItemTitle" extends="textDefault">
+        <Value name="size" value="600px 50px" />
+        <Value name="position" value="140px 60px" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textSize" value="32px" />
+        <Value name="textAutoWidth" value="false" />
+    </Profile>
+
+    <Profile name="fleetVehicleItemDistance" extends="textDefault">
+        <Value name="size" value="600px 40px" />
+        <Value name="position" value="140px 20px" />
+        <Value name="textVerticalAlignment" value="top" />
+        <Value name="textSize" value="24px" />
+        <Value name="textColor" value="0.8 0.8 0.8 1" />
+        <Value name="textAutoWidth" value="false" />
+    </Profile>
+
+    <Profile name="fleetVehicleItemText" extends="textDefault">
+        <Value name="size" value="750px 60px" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textAutoWidth" value="true" />
+        <Value name="position" value="15px 0" />
+    </Profile>
+
+    <!-- In-Game Map Preview -->
+    <Profile name="fleetIngameMap" extends="baseReference">
+        <Value name="size" value="570px 400px" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+
+    <!-- Location Text -->
+    <Profile name="fleetLocationText" extends="textDefault">
+        <Value name="size" value="570px 50px" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+</GUIProfiles>
