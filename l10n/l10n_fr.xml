@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+    <translationContributors>
+        <name>LeGrizzly</name>
+    </translationContributors>
+    <texts>
+        <text name="ui_fleetManager" text="Gestionnaire de Flotte" />
+        <text name="button_enterVehicle" text="Entrer dans le véhicule" />
+        <text name="ui_vehicleList" text="Véhicules" />
+        <text name="ui_location" text="Emplacement" />
+        <text name="ui_noVehicles" text="Aucun véhicule disponible." />
+    </texts>
+</l10n>

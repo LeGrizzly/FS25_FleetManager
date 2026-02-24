@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="FleetManagerVehicles">
+    <GuiElement profile="uiInGameMenuFrame">
+        <GuiElement profile="emptyPanel">
+            <BoxLayout profile="emptyPanel" flowDirection="horizontal" size="1390px 756px">
+                <!-- LEFT: Vehicle List -->
+                <GuiElement profile="emptyPanel" size="780px 756px">
+                    <SmoothList profile="fleetVehicleList" id="vehicleList" onSelectionChanged="onListSelectionChanged" onDoubleClick="onButtonEnterVehicle" selectedWithoutFocus="true">
+                        <ListItem profile="fleetVehicleListItem">
+                            <ImageBox name="icon" profile="fleetVehicleItemIcon" />
+                            <Text name="title" profile="fleetVehicleItemTitle" />
+                            <Text name="distance" profile="fleetVehicleItemDistance" />
+                        </ListItem>
+                    </SmoothList>
+                </GuiElement>
+
+                <!-- RIGHT: Map + Location -->
+                <GuiElement profile="emptyPanel" size="580px 756px">
+                    <InGameMapPreview profile="fleetIngameMap" id="itemDetailsMap" />
+                    <Text profile="fleetLocationText" id="locationText" text="" />
+                </GuiElement>
+            </BoxLayout>
+        </GuiElement>
+    </GuiElement>
+</GUI>
