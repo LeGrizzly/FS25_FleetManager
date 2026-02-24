@@ -53,3 +53,11 @@ Contributions, bug reports, and feature requests are welcome! If you want to hel
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+---
+
+## ☕ Support
+
+If you enjoy this mod and want to support my work, consider buying me a coffee!
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/legrizzly)
